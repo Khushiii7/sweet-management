@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+
+
+@layer base {
+  :root {
+        --background: 0 0% 100%;
+        --foreground: 222 47% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 222 47% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222 47% 11%;
+        /* Brand: indigo/fuchsia */
+        --primary: 243 75% 59%; /* indigo-600 */
+        --primary-foreground: 0 0% 100%;
+        --secondary: 240 5% 96%;
+        --secondary-foreground: 222 47% 11%;
+        --muted: 240 5% 96%;
+        --muted-foreground: 215 16% 47%;
+        --accent: 293 84% 60%; /* fuchsia-500 */
+        --accent-foreground: 0 0% 100%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 214 32% 91%;
+        --input: 214 32% 91%;
+        --ring: 243 75% 59%;
+        --chart-1: 243 75% 59%;
+        --chart-2: 293 84% 60%;
+        --chart-3: 197 37% 24%;
+        --chart-4: 43 74% 66%;
+        --chart-5: 27 87% 67%;
+        --radius: 0.5rem;
+    }
+  .dark {
+        --background: 222 47% 11%;
+        --foreground: 0 0% 98%;
+        --card: 222 47% 14%;
+        --card-foreground: 0 0% 98%;
+        --popover: 222 47% 14%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 222 47% 11%;
+        --secondary: 223 47% 20%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 223 47% 20%;
+        --muted-foreground: 215 16% 75%;
+        --accent: 293 84% 60%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 224 36% 25%;
+        --input: 224 36% 25%;
+        --ring: 243 75% 59%;
+        --chart-1: 243 75% 59%;
+        --chart-2: 293 84% 60%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+    }
+  body {
+    @apply bg-background text-foreground;
+    }
+}

@@ -1,4 +1,5 @@
 // New Mock Data for Sweet Shop Management System
+import besanBurfiImage from '../assets/Besan burfi.jpg';
 
 export const mockSweets = [
   // --- Indian Sweets ---
@@ -24,7 +25,7 @@ export const mockSweets = [
     pricePerKg: 750,
     originalPricePerKg: 850,
     description: "Rich and dense fudge made from gram flour, ghee, and sugar.",
-    image: "../assets/Besan burfi.jpg",
+    image: besanBurfiImage,
     stock: 28,
     featured: false,
     rating: 4.5,

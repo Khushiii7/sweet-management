@@ -67,6 +67,8 @@ python manage.py runserver
 # Screenshots
 ![Screenshot 1](https://github.com/user-attachments/assets/38d7bf9a-f47b-4443-9f66-d68559fd8b03)
 ![Screenshot 2](https://github.com/user-attachments/assets/cbeac1cc-80c5-41d0-95a6-dfb230971e2e)
+<img width="954" height="402" alt="{6EB24900-80AC-463B-916F-CAE4D24B9527}" src="https://github.com/user-attachments/assets/0d770555-1a8b-4abb-9f4d-8e6cee96b07e" />
+<img width="946" height="422" alt="{BF747175-F7CC-4F36-AE3D-B9B6F97C015A}" src="https://github.com/user-attachments/assets/c76a427e-1caa-4846-a9e4-3cc4a2d60db9" />
 
 
 # AI Tools Used:
